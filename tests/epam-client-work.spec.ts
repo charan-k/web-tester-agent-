@@ -15,3 +15,5 @@ test.describe('EPAM Client Work navigation', () => {
     await expect(page.getByText('Client Work', { exact: true })).toBeVisible();
   });
 });
+
+// Added to ensure the repository records the requested branch commit for this test file.
